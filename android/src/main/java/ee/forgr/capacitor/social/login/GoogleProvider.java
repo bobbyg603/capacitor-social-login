@@ -100,7 +100,7 @@ public class GoogleProvider implements SocialProvider {
   public void initialize(String clientId, GoogleProviderLoginType mode) {
     this.credentialManager = CredentialManager.create(activity);
     this.clientId = clientId;
-    this.mode = mode;
+    this.mode = GoogleProviderLoginType.ONLINE; // TODO BG fix this
 
     String data = context
       .getSharedPreferences(SHARED_PREFERENCE_NAME, Context.MODE_PRIVATE)
