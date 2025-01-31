@@ -2,11 +2,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "CapgoCapacitorSocialLogin",
+    name: "Bobbyg603CapacitorSocialLogin",
     platforms: [.iOS(.v14)],
     products: [
         .library(
-            name: "CapgoCapacitorSocialLogin",
+            name: "Bobbyg603CapacitorSocialLogin",
             targets: ["SocialLoginPlugin"])
     ],
     dependencies: [
