@@ -8,7 +8,7 @@ enum GoogleProviderLoginType {
 
 class GoogleProvider {
     var configuration: GIDConfiguration!
-    var forceAuthCode: Bool = false
+    var forceAuthCode: Bool = true
     var additionalScopes: [String]!
     var defaultGrantedScopes = ["email", "profile", "openid"]
     var mode = GoogleProviderLoginType.ONLINE
@@ -21,7 +21,7 @@ class GoogleProvider {
 
         additionalScopes = []
 
-        forceAuthCode = false
+        forceAuthCode = true
     }
 
     func login(payload: [String: Any], completion: @escaping (Result<GoogleLoginResponse, Error>) -> Void) {
