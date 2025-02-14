@@ -15,7 +15,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - name: Install dependencies
         id: install_code
         run: bun install --frozen-lockfile
@@ -23,7 +23,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
-          java-version: '17'
+          java-version: '21'
       - name: Build
         id: build_code
         run: npm run verify:android
@@ -39,7 +39,7 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - name: Install dependencies
         id: install_code
         run: bun install --frozen-lockfile
@@ -57,13 +57,13 @@ jobs:
       - name: Use Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - name: Install dependencies
         id: install_code
         run: bun install --frozen-lockfile
-      # - name: Lint
-      #   id: lint_code
-      #   run: bun run lint
+      - name: Lint
+        id: lint_code
+        run: bun run lint
       - name: Build
         id: build_code
         run: bun run build

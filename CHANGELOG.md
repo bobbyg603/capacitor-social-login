@@ -2,6 +2,86 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.6](https://github.com/Cap-go/capacitor-social-login/compare/1.2.5...1.2.6) (2025-02-09)
+
+
+### Bug Fixes
+
+* issue with missing export ([5660d40](https://github.com/Cap-go/capacitor-social-login/commit/5660d40ceff65beb22deeafd0fa4a943fd7b73ef))
+
+### [1.2.5](https://github.com/Cap-go/capacitor-social-login/compare/1.2.4...1.2.5) (2025-02-02)
+
+
+### Bug Fixes
+
+* versions ([5df5ac3](https://github.com/Cap-go/capacitor-social-login/commit/5df5ac3ae1160807c6b4bb351f852224357f09b7))
+
+### [1.2.4](https://github.com/Cap-go/capacitor-social-login/compare/1.2.3...1.2.4) (2025-02-02)
+
+
+### Bug Fixes
+
+* add back lint ([accc67a](https://github.com/Cap-go/capacitor-social-login/commit/accc67ae07ef88f5be0a1b43c4ced93eead7c15d))
+
+### [1.2.3](https://github.com/Cap-go/capacitor-social-login/compare/1.2.2...1.2.3) (2025-02-02)
+
+
+### Bug Fixes
+
+* use node22 ([13dfc90](https://github.com/Cap-go/capacitor-social-login/commit/13dfc9070a40a289c96d68a3d006595c58829af9))
+
+### [1.2.2](https://github.com/Cap-go/capacitor-social-login/compare/1.2.1...1.2.2) (2025-02-02)
+
+
+### Bug Fixes
+
+* android build ([b61fde1](https://github.com/Cap-go/capacitor-social-login/commit/b61fde1a15bff8ff7a65a2935fa687d97ffde1e0))
+
+### [1.2.1](https://github.com/Cap-go/capacitor-social-login/compare/1.2.0...1.2.1) (2025-02-02)
+
+
+### Bug Fixes
+
+* lint ([225fd97](https://github.com/Cap-go/capacitor-social-login/commit/225fd97ceff7859562e98555d83a121ce5613ae1))
+
+## [1.2.0](https://github.com/Cap-go/capacitor-social-login/compare/1.1.4...1.2.0) (2025-02-02)
+
+
+### Features
+
+* disable one-tap (web) ([be12d22](https://github.com/Cap-go/capacitor-social-login/commit/be12d22a0a0e602f7e5fb84aae30a606a6daa817))
+
+### [1.1.4](https://github.com/Cap-go/capacitor-social-login/compare/1.1.3...1.1.4) (2025-02-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.facebook.android:facebook-login to v18 ([25e04ab](https://github.com/Cap-go/capacitor-social-login/commit/25e04abeff94f699eece64e3e047e6bbd1714749))
+
+### [1.1.3](https://github.com/Cap-go/capacitor-social-login/compare/1.1.2...1.1.3) (2025-02-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency com.google.android.gms:play-services-auth to v21.3.0 ([dca689d](https://github.com/Cap-go/capacitor-social-login/commit/dca689ddcbef1bbf9362421a59a84b2d9fe933a0))
+
+### [1.1.2](https://github.com/Cap-go/capacitor-social-login/compare/1.1.1...1.1.2) (2025-02-02)
+
+
+### Bug Fixes
+
+* versions ([e211dec](https://github.com/Cap-go/capacitor-social-login/commit/e211deca1db47be11f30557d85dd0aa58c236187))
+
+### [1.1.1](https://github.com/Cap-go/capacitor-social-login/compare/1.1.0...1.1.1) (2025-02-02)
+
+
+### Bug Fixes
+
+* lint ([b4d14f9](https://github.com/Cap-go/capacitor-social-login/commit/b4d14f93261dc5be8fc94b3f30fb29044e0658a1))
+* lint issue ([09026a2](https://github.com/Cap-go/capacitor-social-login/commit/09026a2365cc8f4edd21428193746605a7103113))
+
+## [1.1.0](https://github.com/Cap-go/capacitor-social-login/compare/1.1.0-alpha.0...1.1.0) (2025-02-02)
+
 ## [1.1.0-alpha.0](https://github.com/Cap-go/capacitor-social-login/compare/1.0.2...1.1.0-alpha.0) (2025-01-26)
 
 

@@ -285,7 +285,7 @@ Login with the selected provider
 ### logout(...)
 
 ```typescript
-logout(options: { provider: "apple" | "google" | "facebook"; }) => Promise<void>
+logout(options: { provider: 'apple' | 'google' | 'facebook'; }) => Promise<void>
 ```
 
 Logout
@@ -425,6 +425,7 @@ Refresh the access token
 | **`scopes`**            | <code>string[]</code> | Specifies the scopes required for accessing Google APIs The default is defined in the configuration. |                    |
 | **`nonce`**             | <code>string</code>   | Nonce                                                                                                |                    |
 | **`forceRefreshToken`** | <code>boolean</code>  | Force refresh token (only for Android)                                                               | <code>false</code> |
+| **`disableOneTap`**     | <code>boolean</code>  | Disable one-tap login (web only)                                                                     | <code>false</code> |
 
 
 #### AppleProviderOptions
@@ -473,7 +474,7 @@ Refresh the access token
 
 #### LoginOptions
 
-<code>{ provider: "facebook"; options: <a href="#facebookloginoptions">FacebookLoginOptions</a>; } | { provider: "google"; options: <a href="#googleloginoptions">GoogleLoginOptions</a>; } | { provider: "apple"; options: <a href="#appleprovideroptions">AppleProviderOptions</a>; }</code>
+<code>{ provider: 'facebook'; options: <a href="#facebookloginoptions">FacebookLoginOptions</a>; } | { provider: 'google'; options: <a href="#googleloginoptions">GoogleLoginOptions</a>; } | { provider: 'apple'; options: <a href="#appleprovideroptions">AppleProviderOptions</a>; }</code>
 
 
 #### Extract
